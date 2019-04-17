@@ -1,0 +1,33 @@
+.task {
+  height: 90%;
+}
+
+.text {
+  height: 200px;
+  border: 1px solid #E8C48F;
+  padding: 3px;
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+.list-header {
+  text-align: center;
+  border-bottom: 1px solid #111111;
+}
+
+.lists {
+  display: inline;
+  float: left;
+}
+
+.list {
+  float:left;
+  margin-right: 15px;
+  width: 100px;
+  height: 200px;
+  border: 1px solid #111111;
+}
+
+list:focus {
+  background: blue;
+}
