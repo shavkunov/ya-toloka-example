@@ -1,87 +1,108 @@
-<div class="text">
-  {{news}}
+<div class="text"> {{news}} </div>
+
+<div class="rdlist">
+{{field type="radio" name="chosen_lvl1" label="Спорт" value="спорт" hotkey="1"}}
+{{field type="radio" name="chosen_lvl1" label="Политика" value="политика" hotkey="2"}}
+{{field type="radio" name="chosen_lvl1" label="Культура" value="культура" hotkey="3"}}
+{{field type="radio" name="chosen_lvl1" label="Наука и техника" value="наука_и_техника" hotkey="4"}}
+{{field type="radio" name="chosen_lvl1" label="Силовые структуры" value="силовые_структуры" hotkey="5"}}
+{{field type="radio" name="chosen_lvl1" label="Бизнес" value="бизнес" hotkey="6"}}
+{{field type="radio" name="chosen_lvl1" label="Проишествия" value="проишествия" hotkey="7"}}
+{{field type="radio" name="chosen_lvl1" label="Экономика и финансы" value="экономика_и_финансы" hotkey="8"}}
+{{field type="radio" name="chosen_lvl1" label="Общество" value="общество" hotkey="9"}}
 </div>
 
-<div class="lists">
-
-<div class="list">
-<div class="list-header">
-Силовые структуры
-</div>
-<div class="list-content">
-{{field type="checkbox" value="вооружение" label="Вооружение" checked=false}}
-{{field type="checkbox" value="МВД" label="Мвд" checked=false}}
-{{field type="checkbox" value="министерсто обороны" label="Министерсто обороны" checked=false}}
-{{field type="checkbox" value="спецслужба" label="Спецслужба" checked=false}}
+<div class="list0" style="display: none;">
+{{field type="checkbox" value="футбол" label="Футбол" checked=false class="block"}}
+{{field type="checkbox" value="спортивные мероприятия" label="Спортивные мероприятия" checked=false class="block"}}
+{{field type="checkbox" value="хоккей" label="Хоккей" checked=false class="block"}}
+{{field type="checkbox" value="единоборства" label="Единоборства" checked=false class="block"}}
+{{field type="checkbox" value="автоспорт" label="Автоспорт" checked=false class="block"}}
 </div>
 
+<div class="list1" style="display: none;">
+{{field type="checkbox" value="переговоры, встречи" label="Переговоры, встречи" checked=false class="block"}}
+{{field type="checkbox" value="региональная политика" label="Региональная политика" checked=false class="block"}}
+{{field type="checkbox" value="вооруженные конфликты" label="Вооруженные конфликты" checked=false class="block"}}
+{{field type="checkbox" value="внешняя политика" label="Внешняя политика" checked=false class="block"}}
+{{field type="checkbox" value="законодательство" label="Законодательство" checked=false class="block"}}
+{{field type="checkbox" value="оппозиция" label="Оппозиция" checked=false class="block"}}
+{{field type="checkbox" value="выборы" label="Выборы" checked=false class="block"}}
+{{field type="checkbox" value="партии, государственная дума" label="Партии, государственная дума" checked=false class="block"}}
+{{field type="checkbox" value="украинский кризис" label="Украинский кризис" checked=false class="block"}}
+{{field type="checkbox" value="санкции" label="Санкции" checked=false class="block"}}
 </div>
 
-<div class="list">
-<div class="list-header">
-Бизнес
-</div>
-<div class="list-content">
-{{field type="checkbox" value="бизнес и государство" label="Бизнес и государство" checked=false}}
-{{field type="checkbox" value="долги, банкротство, обманутые дольщики" label="Долги, банкротство, обманутые дольщики" checked=false}}
-</div>
-
-</div>
-
-<div class="list">
-<div class="list-header">
-Проишествия
-</div>
-<div class="list-content">
-{{field type="checkbox" value="убийства, изнасилования" label="Убийства, изнасилования" checked=false}}
-{{field type="checkbox" value="криминал" label="Криминал" checked=false}}
-{{field type="checkbox" value="катастрофы" label="Катастрофы" checked=false}}
-{{field type="checkbox" value="драки" label="Драки" checked=false}}
-{{field type="checkbox" value="терракты" label="Терракты" checked=false}}
-{{field type="checkbox" value="расследования" label="Расследования" checked=false}}
-{{field type="checkbox" value="стихийные бедствия" label="Стихийные бедствия" checked=false}}
-{{field type="checkbox" value="кража" label="Кража" checked=false}}
+<div class="list2" style="display: none;">
+{{field type="checkbox" value="знаменитости" label="Знаменитости" checked=false class="block"}}
+{{field type="checkbox" value="музыка" label="Музыка" checked=false class="block"}}
+{{field type="checkbox" value="кино" label="Кино" checked=false class="block"}}
+{{field type="checkbox" value="театр" label="Театр" checked=false class="block"}}
+{{field type="checkbox" value="фестивали, выставки, мероприятия" label="Фестивали, выставки, мероприятия" checked=false class="block"}}
+{{field type="checkbox" value="военная история" label="Военная история" checked=false class="block"}}
+{{field type="checkbox" value="живопись" label="Живопись" checked=false class="block"}}
+{{field type="checkbox" value="СМИ" label="СМИ" checked=false class="block"}}
+{{field type="checkbox" value="праздники" label="Праздники" checked=false class="block"}}
 </div>
 
+<div class="list3" style="display: none;">
+{{field type="checkbox" value="игры" label="Игры" checked=false class="block"}}
+{{field type="checkbox" value="астрономия, космос" label="Астрономия, космос" checked=false class="block"}}
+{{field type="checkbox" value="военная техника" label="Военная техника" checked=false class="block"}}
+{{field type="checkbox" value="другое" label="Другое" checked=false class="block"}}
+{{field type="checkbox" value="интернет" label="Интернет" checked=false class="block"}}
+{{field type="checkbox" value="гаджеты" label="Гаджеты" checked=false class="block"}}
+{{field type="checkbox" value="автопром" label="Автопром" checked=false class="block"}}
+{{field type="checkbox" value="IT" label="IT" checked=false class="block"}}
+{{field type="checkbox" value="школа, университеты" label="Школа, университеты" checked=false class="block"}}
 </div>
 
-<div class="list">
-<div class="list-header">
-Экономика и финансы
-</div>
-<div class="list-content">
-{{field type="checkbox" value="банки" label="Банки" checked=false}}
-{{field type="checkbox" value="мировая экономика" label="Мировая экономика" checked=false}}
-{{field type="checkbox" value="энергетика, нефть" label="Энергетика, нефть" checked=false}}
-{{field type="checkbox" value="промышленность" label="Промышленность" checked=false}}
-{{field type="checkbox" value="пенсии" label="Пенсии" checked=false}}
-{{field type="checkbox" value="торговля, импорт, экспорт" label="Торговля, импорт, экспорт" checked=false}}
-{{field type="checkbox" value="грузовые перевозки" label="Грузовые перевозки" checked=false}}
-{{field type="checkbox" value="экономические мероприятия" label="Экономические мероприятия" checked=false}}
-{{field type="checkbox" value="налоги, льготы, страховые взносы" label="Налоги, льготы, страховые взносы" checked=false}}
+<div class="list4" style="display: none;">
+{{field type="checkbox" value="вооружение" label="Вооружение" checked=false class="block"}}
+{{field type="checkbox" value="МВД" label="МВД" checked=false class="block"}}
+{{field type="checkbox" value="министерсто обороны" label="Министерсто обороны" checked=false class="block"}}
+{{field type="checkbox" value="спецслужба" label="Спецслужба" checked=false class="block"}}
 </div>
 
+<div class="list5" style="display: none;">
+{{field type="checkbox" value="бизнес и государство" label="Бизнес и государство" checked=false class="block"}}
+{{field type="checkbox" value="долги, банкротство, обманутые дольщики" label="Долги, банкротство, обманутые дольщики" checked=false class="block"}}
 </div>
 
-<div class="list">
-<div class="list-header">
-Общество
-</div>
-<div class="list-content">
-{{field type="checkbox" value="религия" label="Религия" checked=false}}
-{{field type="checkbox" value="быт" label="Быт" checked=false}}
-{{field type="checkbox" value="пенсии" label="Пенсии" checked=false}}
-{{field type="checkbox" value="суд" label="Суд" checked=false}}
-{{field type="checkbox" value="здравоохранение" label="Здравоохранение" checked=false}}
-{{field type="checkbox" value="дороги" label="Дороги" checked=false}}
-{{field type="checkbox" value="благоустройство территории" label="Благоустройство территории" checked=false}}
-{{field type="checkbox" value="ЖКХ" label="Жкх" checked=false}}
-{{field type="checkbox" value="строительство" label="Строительство" checked=false}}
-{{field type="checkbox" value="корупция" label="Корупция" checked=false}}
-{{field type="checkbox" value="экология" label="Экология" checked=false}}
-{{field type="checkbox" value="социальные сети" label="Социальные сети" checked=false}}
+<div class="list6" style="display: none;">
+{{field type="checkbox" value="убийства, изнасилования" label="Убийства, изнасилования" checked=false class="block"}}
+{{field type="checkbox" value="криминал" label="Криминал" checked=false class="block"}}
+{{field type="checkbox" value="катастрофы" label="Катастрофы" checked=false class="block"}}
+{{field type="checkbox" value="драки" label="Драки" checked=false class="block"}}
+{{field type="checkbox" value="терракты" label="Терракты" checked=false class="block"}}
+{{field type="checkbox" value="расследования" label="Расследования" checked=false class="block"}}
+{{field type="checkbox" value="стихийные бедствия" label="Стихийные бедствия" checked=false class="block"}}
+{{field type="checkbox" value="кража" label="Кража" checked=false class="block"}}
 </div>
 
+<div class="list7" style="display: none;">
+{{field type="checkbox" value="банки" label="Банки" checked=false class="block"}}
+{{field type="checkbox" value="мировая экономика" label="Мировая экономика" checked=false class="block"}}
+{{field type="checkbox" value="энергетика, нефть" label="Энергетика, нефть" checked=false class="block"}}
+{{field type="checkbox" value="промышленность" label="Промышленность" checked=false class="block"}}
+{{field type="checkbox" value="пенсии" label="Пенсии" checked=false class="block"}}
+{{field type="checkbox" value="торговля, импорт, экспорт" label="Торговля, импорт, экспорт" checked=false class="block"}}
+{{field type="checkbox" value="грузовые перевозки" label="Грузовые перевозки" checked=false class="block"}}
+{{field type="checkbox" value="экономические мероприятия" label="Экономические мероприятия" checked=false class="block"}}
+{{field type="checkbox" value="налоги, льготы, страховые взносы" label="Налоги, льготы, страховые взносы" checked=false class="block"}}
 </div>
 
+<div class="list8" style="display: none;">
+{{field type="checkbox" value="религия" label="Религия" checked=false class="block"}}
+{{field type="checkbox" value="быт" label="Быт" checked=false class="block"}}
+{{field type="checkbox" value="пенсии" label="Пенсии" checked=false class="block"}}
+{{field type="checkbox" value="суд" label="Суд" checked=false class="block"}}
+{{field type="checkbox" value="здравоохранение" label="Здравоохранение" checked=false class="block"}}
+{{field type="checkbox" value="дороги" label="Дороги" checked=false class="block"}}
+{{field type="checkbox" value="благоустройство территории" label="Благоустройство территории" checked=false class="block"}}
+{{field type="checkbox" value="ЖКХ" label="ЖКХ" checked=false class="block"}}
+{{field type="checkbox" value="строительство" label="Строительство" checked=false class="block"}}
+{{field type="checkbox" value="корупция" label="Корупция" checked=false class="block"}}
+{{field type="checkbox" value="экология" label="Экология" checked=false class="block"}}
+{{field type="checkbox" value="социальные сети" label="Социальные сети" checked=false class="block"}}
 </div>

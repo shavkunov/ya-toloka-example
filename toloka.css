@@ -1,33 +1,21 @@
 .task {
-  height: 95%;
+  height: auto;
 }
 
 .text {
   height: 200px;
-  border: 1px solid #E8C48F;
-  padding: 3px;
   overflow: auto;
   margin-bottom: 10px;
+  padding: 10px;
+  background-color: #F2F2F2;
 }
 
-.list-header {
-  text-align: center;
-  border-bottom: 1px solid #111111;
-}
-
-.lists {
-  display: inline;
-  float: left;
-}
-
-.list {
-  float:left;
-  margin-right: 15px;
-  width: 250px;
-  height: 350px;
-  border: 1px solid #111111;
-}
-
-list:focus {
-  background: blue;
-}
+.list0 { display: block }
+.list1 { display: block }
+.list2 { display: block }
+.list3 { display: block }
+.list4 { display: block }
+.list5 { display: block }
+.list6 { display: block }
+.list7 { display: block }
+.list8 { display: block }
