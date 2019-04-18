@@ -1,5 +1,5 @@
 .task {
-  height: 90%;
+  height: 95%;
 }
 
 .text {
@@ -23,8 +23,8 @@
 .list {
   float:left;
   margin-right: 15px;
-  width: 100px;
-  height: 200px;
+  width: 250px;
+  height: 350px;
   border: 1px solid #111111;
 }
 
