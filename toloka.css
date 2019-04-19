@@ -2,6 +2,17 @@
   height: auto;
 }
 
+.lists {
+  display: flex;
+  flex-direction: row;
+}
+
+.rdlist {
+  display: flex;
+  flex-direction: column;
+  height: 390px;
+}
+
 .text {
   height: 200px;
   overflow: auto;
@@ -9,6 +20,22 @@
   padding: 10px;
   background-color: #F2F2F2;
 }
+
+.block {
+  display: flex;
+  flex-direction: row;
+  align-items: center; // sounds good, doesn't work
+}
+
+.rd0 { display: block; padding-right: 5px; }
+.rd1 { display: block; padding-right: 5px; }
+.rd2 { display: block; padding-right: 5px; }
+.rd3 { display: block; padding-right: 5px; }
+.rd4 { display: block; padding-right: 5px; }
+.rd5 { display: block; padding-right: 5px; }
+.rd6 { display: block; padding-right: 5px; }
+.rd7 { display: block; padding-right: 5px; }
+.rd8 { display: block; padding-right: 5px; }
 
 .list0 { display: block }
 .list1 { display: block }
