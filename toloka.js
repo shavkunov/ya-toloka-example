@@ -3,8 +3,6 @@ exports.Task = extend(TolokaHandlebarsTask, function (options) {
 }, {
   validate: function(solution) {
     var MIN_CATEGORIES = 1, MAX_CATEGORIES = 3;
-    console.log("in validate:");
-    console.log(solution.output_values);
     var categoriesCount = solution.output_values.chosen_topics.length;
 
     if (categoriesCount && categoriesCount >= MIN_CATEGORIES && categoriesCount <= MAX_CATEGORIES) {
@@ -29,8 +27,6 @@ exports.Task = extend(TolokaHandlebarsTask, function (options) {
     'проишествия', 'экономика_и_финансы', 'общество'];
     var DOM = this.getDOMElement();
     var task = this.getTask();
-    console.log("in onRender1:");
-    console.log(this.getSolution());
     var chosenTopic = solution.output_values.chosen_lvl1;
     if (chosenTopic) {
       var listNumber = topics.indexOf(chosenTopic);
@@ -63,8 +59,6 @@ exports.Task = extend(TolokaHandlebarsTask, function (options) {
     solution.output_values.url = task.input_values.url;
     solution.output_values.probability = task.input_values.probability;
     solution.output_values.chosen_topics = selectedCategories;
-    console.log("in onRender2:");
-    console.log(this.getSolution());
   },
   onRender: function() {
 
